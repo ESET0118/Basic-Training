@@ -1,3 +1,4 @@
 {
-  "isAssembly": false
+  "isAssembly": false,
+  "mcu": "at94k"
 }
