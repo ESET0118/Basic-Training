@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Book_App\bin\Debug\net8.0\Book_App.exe
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Book_App\bin\Debug\net8.0\Book_App.deps.json
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Book_App\bin\Debug\net8.0\Book_App.runtimeconfig.json
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Book_App\bin\Debug\net8.0\Book_App.dll
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Book_App\bin\Debug\net8.0\Book_App.pdb
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Book_App\obj\Debug\net8.0\Book_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Book_App\obj\Debug\net8.0\Book_App.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Book_App\obj\Debug\net8.0\Book_App.AssemblyInfo.cs
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Book_App\obj\Debug\net8.0\Book_App.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Book_App\obj\Debug\net8.0\Book_App.sourcelink.json
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Book_App\obj\Debug\net8.0\Book_App.dll
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Book_App\obj\Debug\net8.0\refint\Book_App.dll
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Book_App\obj\Debug\net8.0\Book_App.pdb
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Book_App\obj\Debug\net8.0\Book_App.genruntimeconfig.cache
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Book_App\obj\Debug\net8.0\ref\Book_App.dll
