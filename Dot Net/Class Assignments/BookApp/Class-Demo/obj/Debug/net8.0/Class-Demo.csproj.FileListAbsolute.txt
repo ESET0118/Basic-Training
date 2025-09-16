@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Class-Demo\obj\Debug\net8.0\Class-Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Class-Demo\obj\Debug\net8.0\Class-Demo.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Class-Demo\obj\Debug\net8.0\Class-Demo.AssemblyInfo.cs
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Class-Demo\obj\Debug\net8.0\Class-Demo.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Class-Demo\obj\Debug\net8.0\Class-Demo.sourcelink.json
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Class-Demo\bin\Debug\net8.0\Class-Demo.exe
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Class-Demo\bin\Debug\net8.0\Class-Demo.deps.json
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Class-Demo\bin\Debug\net8.0\Class-Demo.runtimeconfig.json
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Class-Demo\bin\Debug\net8.0\Class-Demo.dll
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Class-Demo\bin\Debug\net8.0\Class-Demo.pdb
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Class-Demo\obj\Debug\net8.0\Class-Demo.dll
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Class-Demo\obj\Debug\net8.0\refint\Class-Demo.dll
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Class-Demo\obj\Debug\net8.0\Class-Demo.pdb
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Class-Demo\obj\Debug\net8.0\Class-Demo.genruntimeconfig.cache
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\BookApp\Class-Demo\obj\Debug\net8.0\ref\Class-Demo.dll
