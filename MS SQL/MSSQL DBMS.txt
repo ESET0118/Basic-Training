@@ -1,0 +1,25 @@
+MSSQL DBMS:
+
+
+object 1: E-commerce->Customers
+	  Customer Name
+	  Customer ID
+	  Customer Orders
+	  Customer Returns
+	  Customer Cashbacks
+	  Customer Coupons
+	  Customer Ratings
+	  Customer Reviews
+	  Customer Age
+	  Customer Address
+	  Customer Number
+	  Customer Email-ID
+	  Customer Profile Picture
+
+
+
+Keys: 
+Primary Key: Unique identification off each row and it cannot be NULL (used in indexing)
+Unique Key: Unique record can have NULL value but it cannot be Foreign Key
+Foreign Key: May not be unique can be NULL but if two tables are connected using Foreign keys then on trying to delete the parent table an error will be thrown stating that first i need to delete the child table and only then can the parent table be deleted
+

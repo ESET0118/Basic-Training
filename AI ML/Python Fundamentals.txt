@@ -1,0 +1,72 @@
+Python Fundamentals:
+
+> Compiled Language =====> main.cpp --- (Compiler) ---> Machine Code ---> Output 
+> Interpreted Language =====>  main.py ---> Output
+> Python is both functional and object oriented
+> General Purpose Libraries --> Good range of libraries
+> Cross Platform Language
+> Applications : AI ML, Django(Backend), Data Scientist, Automating Excel Reports
+> print("Hello World")
+> numPy ---> numeric Python 
+> pandas ---> analyse data
+> pip ==> python package installer
+> Virtual Environment ==> Keeps separate IDEs
+> Lists : Ordered Changeable Collection of items in square bracket[] (Different Data Types)
+> Dictionaries : Unordered collection of key value pairs in {} (Mutable and can have Different Data types)
+> Tuple : Ordered but immutable collection in ()
+> Data Collection, Data Manipulation, Data Cleaning, Data Imputation=>Changing NULL data with your own value
+> Pandas: import pandas as pd ===> It is used for the above functions
+> NumPy: It is used for non structured data
+> Other Libraries used for visualisation ==> Matplotlib and seaborn
+> Matplotlib -> Basic Visualisation       	Seaborn -> Advanced visualisation 
+> What is a CSV file? Comma Separated Values --> each line represents a row of data and each value separated by a comma becomes the column
+> Read a CSV File ==> df=pd.read_csv('#file.csv')
+> print(df,head()) ==> represents top 5 values
+> Data Wrangling ===> process of cleaning, structuring and enriching raw data into desired format for better decision making in less time
+	1. Data Collection : loading the data
+	2. Data Cleaning : removing outliers--> anomaly data that is away from the general trend
+	3. Data Transformation : from one data structure to another eg. dict to data frame
+	4. Data Enrichment : combining data from multiple sources
+	5. Data Aggregation : summarizing data
+	6. Data Validation : ensuring data quality and consistency
+> Types of Data Analysis : 
+	1. Descriptive Analysis(Descriptive Analytics)   ---> df.info()
+	2. Statistical Analysis				 ---> df.describe()
+	3. Diagnostic Analysis(Diagnostic Analytics)
+	4. Predictive Analysis(Predictive Analytics)
+	5. Prescriptive Analysis(Prescriptive Analytics)
+	6. Exploratory Analysis
+	7. Inferential Analysis
+> Data Analytics : 
+	1. Descriptive Analytics
+	2. Diagnostic Analytics : Anomalies(Lowest/Highest Values) => Outliers (away from the normal entries)
+	3. Predictive Analytics : 
+	x-->1.5x-->1.5^n * x
+	
+	4. Prescriptive Analytics
+
+> Machine Learning : 
+	Time Series Data --> Dependent on time
+> Machine Learning: A way of programming where you train a model with enough data to get output with maximum accuracy.
+> Types of ML :
+	1. Supervised Learning Model --> where we have enough data (If we have predefined target with both labels and values)
+	2. Unsupervised Learning Model --> we don't have information with labels and targets not being defined 
+		FEATURES(x) AND TARGETS(y) ==> y=f(x) Clusters
+
+> Linear Regression
+
+> Classification ---> Uses a confusion matrix to find the accuracy ---> (TT,TF,FT,FF) accuracy=(TT+FF)/total
+
+> Overfit -> 100% accuracy
+> Underfit -> Very low accuracy
+
+> K-Means Clustering : 
+
+Group into K clusters each cluster having a centroid which is at minimum distance from each data point of its cluster. Now finding the number of clusters K is a tough job for which we use 2 methods :
+
+1. Elbow Method : 
+2. Silhoute Score : 
+
+
+
+

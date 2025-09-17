@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo\bin\Debug\net8.0\Data_Structures_Demo.exe
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo\bin\Debug\net8.0\Data_Structures_Demo.deps.json
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo\bin\Debug\net8.0\Data_Structures_Demo.runtimeconfig.json
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo\bin\Debug\net8.0\Data_Structures_Demo.dll
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo\bin\Debug\net8.0\Data_Structures_Demo.pdb
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo\obj\Debug\net8.0\Data_Structures_Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo\obj\Debug\net8.0\Data_Structures_Demo.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo\obj\Debug\net8.0\Data_Structures_Demo.AssemblyInfo.cs
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo\obj\Debug\net8.0\Data_Structures_Demo.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo\obj\Debug\net8.0\Data_Structures_Demo.sourcelink.json
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo\obj\Debug\net8.0\Data_Structures_Demo.dll
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo\obj\Debug\net8.0\refint\Data_Structures_Demo.dll
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo\obj\Debug\net8.0\Data_Structures_Demo.pdb
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo\obj\Debug\net8.0\Data_Structures_Demo.genruntimeconfig.cache
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo\obj\Debug\net8.0\ref\Data_Structures_Demo.dll

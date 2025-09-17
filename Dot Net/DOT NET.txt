@@ -1,0 +1,11 @@
+DOT NET 
+
+> Dot Net is a framework that supports multiple languages like C# that is used to make writing codes easier and reusable. The original C# was released for windows OS. After sometime(around its 5th update) it was released as a cross platform framework which is known as .NET core .
+
+> The C# compiler(CLR*) converts C# into an intermediate code that can be run on all platforms which is then converted by the interpreter( Jit Compiler ) into machine code for that platform.
+
+This is analogous to Java where javac compiler converts the java code (.java) to intermediate code called bytecode (.class) which is then compiled by the interpreter Java Virtual Machine(JVM) into machine code.
+
+*CLR stands for Common Language Runtime 
+
+> Just in Time Compiler --> JIT Compiler
