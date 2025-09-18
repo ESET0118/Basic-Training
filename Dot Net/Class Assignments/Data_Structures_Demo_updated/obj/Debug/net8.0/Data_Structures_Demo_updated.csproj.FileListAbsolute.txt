@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo_updated\obj\Debug\net8.0\Data_Structures_Demo_updated.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo_updated\obj\Debug\net8.0\Data_Structures_Demo_updated.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo_updated\obj\Debug\net8.0\Data_Structures_Demo_updated.AssemblyInfo.cs
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo_updated\obj\Debug\net8.0\Data_Structures_Demo_updated.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo_updated\obj\Debug\net8.0\Data_Structures_Demo_updated.sourcelink.json
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo_updated\bin\Debug\net8.0\Data_Structures_Demo_updated.exe
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo_updated\bin\Debug\net8.0\Data_Structures_Demo_updated.deps.json
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo_updated\bin\Debug\net8.0\Data_Structures_Demo_updated.runtimeconfig.json
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo_updated\bin\Debug\net8.0\Data_Structures_Demo_updated.dll
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo_updated\bin\Debug\net8.0\Data_Structures_Demo_updated.pdb
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo_updated\obj\Debug\net8.0\Data_Structures_Demo_updated.dll
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo_updated\obj\Debug\net8.0\refint\Data_Structures_Demo_updated.dll
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo_updated\obj\Debug\net8.0\Data_Structures_Demo_updated.pdb
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo_updated\obj\Debug\net8.0\Data_Structures_Demo_updated.genruntimeconfig.cache
+C:\Users\HP\Desktop\Basic-Training\Dot Net\Class Assignments\Data_Structures_Demo_updated\obj\Debug\net8.0\ref\Data_Structures_Demo_updated.dll

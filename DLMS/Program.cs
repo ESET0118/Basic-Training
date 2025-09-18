@@ -1,14 +1,7 @@
-﻿/*Assignment - DLMS/COSEM communication example
-in C# .net, demonstrating how to:
-
-Define and pack an OBIS code
-
-Construct a GET request APDU*/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 
-namespace DLMS
+namespace DLMS_Assignment2
 {
     // OBIS Code class
     public class ObisCode
@@ -32,7 +25,100 @@ namespace DLMS
 
         public override string ToString()
         {
+            // Keeps compatibility with the original format: A-B:C.D.E.F
             return $"{A}-{B}:{C}.{D}.{E}.{F}";
+        }
+    }
+
+    // Meter Object to simulate meter data storage
+    public class MeterObject
+    {
+        public string Name { get; set; }
+        public ObisCode Obis { get; set; }
+        public int Value { get; set; }
+
+        public MeterObject(string name, ObisCode obis, int value)
+        {
+            Name = name;
+            Obis = obis;
+            Value = value;
+        }
+    }
+
+    public class DLMS_Service
+    {
+        private readonly List<MeterObject> meterObjects = new List<MeterObject>();
+
+        public DLMS_Service()
+        {
+            // Initialize some sample MeterObjects
+            meterObjects.Add(new MeterObject("Active Energy Import", new ObisCode(1, 0, 1, 8, 0, 255), 100));
+            meterObjects.Add(new MeterObject("Voltage", new ObisCode(1, 0, 1, 9, 1, 0), 240));
+        }
+
+        private MeterObject? FindMeterObject(ObisCode obis)
+        {
+            foreach (var mo in meterObjects)
+            {
+                if (string.Equals(obis.ToString(), mo.Obis.ToString(), StringComparison.Ordinal))
+                    return mo;
+            }
+            return null;
+        }
+
+        // GET: Read object attribute value
+        public void DlmsGet(ObisCode obis)
+        {
+            var mo = FindMeterObject(obis);
+            if (mo != null)
+            {
+                Console.WriteLine($"[GET] {mo.Name} = {mo.Value}");
+            }
+            else
+            {
+                Console.WriteLine("[GET] OBIS not found.");
+            }
+        }
+
+        // SET: Write or update object attribute value
+        public void DlmsSet(ObisCode obis, int newValue)
+        {
+            var mo = FindMeterObject(obis);
+            if (mo != null)
+            {
+                mo.Value = newValue;
+                Console.WriteLine($"[SET] {mo.Name} updated to {newValue}");
+            }
+            else
+            {
+                Console.WriteLine("[SET] OBIS not found.");
+            }
+        }
+
+        // ACTION: Execute a method like reset, sync time, etc.
+        public void DlmsAction(ObisCode obis, string method)
+        {
+            var mo = FindMeterObject(obis);
+            if (mo == null)
+            {
+                Console.WriteLine("[ACTION] OBIS not found.");
+                return;
+            }
+
+            switch (method.ToUpperInvariant())
+            {
+                case "RESET":
+                    mo.Value = 0;
+                    Console.WriteLine("[ACTION] Reset complete.");
+                    break;
+                case "SYNC_TIME":
+                    // For demonstration, just printing sync time action
+                    Console.WriteLine("[ACTION] Synchronizing meter clock to system time...");
+                    break;
+                default:
+                    Console.WriteLine("[ACTION] Unknown method.");
+                    break;
+            }
         }
     }
 
@@ -41,11 +127,12 @@ namespace DLMS
     {
         public static byte[] CreateGetRequest(ObisCode obis, ushort classId, byte attributeId)
         {
-            List<byte> apdu = new List<byte>();
+            var apdu = new List<byte>();
 
             // GET-Request tag
             apdu.Add(0xC0); // GET-Request
             apdu.Add(0x01); // Get-Request-Normal
+
             // Invoke ID and Priority
             apdu.Add(0x01); // Example: Invoke ID = 1, normal priority
 
@@ -70,17 +157,28 @@ namespace DLMS
     {
         static void Main(string[] args)
         {
+            // Initialize DLMS Service
+            DLMS_Service dlmsService = new DLMS_Service();
+
             // OBIS code for Active Energy Import (1-0:1.8.0.255)
-            var obis = new ObisCode(1, 0, 1, 8, 0, 255);
+            var obisEnergy = new ObisCode(1, 0, 1, 8, 0, 255);
+            // OBIS code for Voltage (1-0:1.9.1.0)
+            var obisVoltage = new ObisCode(1, 0, 1, 9, 1, 0);
 
-            // Class ID for Register object is 3
-            ushort classId = 3;
-            byte attributeId = 2; // e.g., value attribute
+            // Example of GET
+            Console.WriteLine("==== GET Request ====");
+            dlmsService.DlmsGet(obisEnergy); // Should find the object
+            dlmsService.DlmsGet(obisVoltage); // Should find the object
 
-            byte[] apdu = GetRequestApdu.CreateGetRequest(obis, classId, attributeId);
+            // Example of SET
+            Console.WriteLine("\n==== SET Request ====");
+            dlmsService.DlmsSet(obisVoltage, 250); // Set new value for Voltage
+            dlmsService.DlmsGet(obisVoltage); // Check if value is updated
 
-            Console.WriteLine("OBIS Code: " + obis);
-            Console.WriteLine("GET Request APDU: " + BitConverter.ToString(apdu));
-        }
+            // Example of ACTION
+            Console.WriteLine("\n==== ACTION Request ====");
+            dlmsService.DlmsAction(obisEnergy, "RESET"); // Reset the energy meter
+            dlmsService.DlmsAction(obisVoltage, "SYNC_TIME"); // Synchronize time
+        }
     }
 }
